@@ -8,6 +8,8 @@ inputs:
 outputs:
   time: # id of output
     description: 'The time we greeted you'
+  pusher: # user name of pusher
+    description: 'the user name who pushed'
 runs:
   using: 'node12'
   main: 'index.js'
